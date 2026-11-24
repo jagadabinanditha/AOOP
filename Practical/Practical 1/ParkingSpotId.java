@@ -1,0 +1,15 @@
+import java.util.*;
+
+record ParkingSpotId(int value) {
+
+    public ParkingSpotId {
+
+        if (value <= 0) {
+
+            throw new IllegalArgumentException("Invalid Parking Spot ID");
+
+        }
+
+    }
+
+}
